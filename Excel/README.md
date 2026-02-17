@@ -1,4 +1,4 @@
-### Retail Sales Dataset – Excel Analysis
+# Retail Sales Dataset – Excel Analysis
 
 ## Overview
 
