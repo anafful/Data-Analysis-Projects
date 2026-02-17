@@ -37,6 +37,13 @@ The average commission was calculated to understand typical earnings per transac
 
 Formula used:
 
+
+
+=SUMIFS(Transaction[Total], Transaction[Product Category], L15)
+=SUMIFS(Transaction[Total], Transaction[Product Category], L16)
+=UNIQUE(F2:F1001)
+
+
 =AVERAGE(range)
 
 
