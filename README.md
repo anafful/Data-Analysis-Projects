@@ -14,8 +14,4 @@
 
 ## Python Projects
 
-## Azure / Cloud Projects
 
-How to Run (for code projects)
-
-Contact
