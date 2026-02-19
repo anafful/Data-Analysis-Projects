@@ -1,91 +1,34 @@
-Student Performance Analysis – Python (Pandas)
-📌 Overview
+# Student Performance Analysis – Python (Pandas)
 
-This project explores a student dataset using Python and Pandas to perform data inspection, transformation, and basic statistical analysis.
+## Overview
 
-🎯 Objectives
+This project analyses a student dataset using Python and Pandas, focusing on data inspection, transformation, and basic statistical exploration.
 
-Inspect dataset structure
+---
 
-Identify missing values
+## Objectives
 
-Perform filtering & selection
+- Inspect dataset structure  
+- Identify missing values  
+- Perform filtering and selection  
+- Create derived features  
+- Analyse distributions and averages  
 
-Create derived features
+---
 
-Analyse distributions & averages
+## Tools & Libraries
 
-🛠 Tools & Libraries
+- Python  
+- Pandas  
+- Google Colab  
 
-Python
+---
 
-Pandas
+## Data Exploration
 
-Google Colab
+Initial dataset inspection:
 
-🔎 Data Exploration
-
-Initial inspection of the dataset:
-
+```python
 df.info()
 df.describe()
 df.head()
-
-
-Purpose:
-
-✔ Understand column types
-✔ Detect anomalies
-✔ Review sample records
-
-🧹 Missing Value Analysis
-
-Checked for incomplete records:
-
-df.isnull().sum()
-
-
-This step helps assess data quality before analysis.
-
-🔧 Feature Engineering
-
-Created a derived performance column:
-
-df['passed'] = df['mark'] > 60
-
-
-Purpose:
-
-✔ Segment student outcomes
-✔ Enable categorical comparisons
-
-📊 Key Analysis
-
-Class Distribution
-
-df['class'].value_counts()
-
-
-Average Score by Gender
-
-df.groupby('gender')['score'].mean()
-
-🧠 Example Insights
-
-Student counts vary across classes
-
-Score patterns differ between groups
-
-Pass/fail segmentation simplifies analysis
-
-Dataset suitable for basic performance evaluation
-
-(Keep honest & simple — recruiters prefer clarity)
-
-✅ Skills Demonstrated
-
-✔ Data loading & inspection
-✔ Handling null values
-✔ Column selection
-✔ GroupBy analysis
-✔ Basic feature creation
