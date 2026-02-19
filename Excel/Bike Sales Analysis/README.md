@@ -26,8 +26,6 @@ A Pivot Table was created to summarise sales by country, market, age group, and 
 - **Most profitable segment:** US customers (Adults 35–64)  
 - **Youth demographic:** Lower overall spending patterns observed  
 
-![Revenue by Age Group]Images/revenue-comparison.png)
-
 ---
 
 ## Product Categorisation – SWITCH Function
