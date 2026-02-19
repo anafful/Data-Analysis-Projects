@@ -1,42 +1,67 @@
+# Music Genre Popularity Analysis – Tableau
 
-Music Genre Popularity Analysis – Tableau
-Overview
+## Overview
 
-This Tableau dashboard analyses genre popularity and artist distribution using ranking and frequency metrics.
+This Tableau dashboard explores genre popularity and artist distribution, focusing on ranking behaviour, category dominance, and comparative patterns across music genres.
 
-Objectives
+---
 
-Identify dominant music genres
+## Objectives
 
-Compare artist presence by genre
+- Identify dominant music genres  
+- Compare artist representation by genre  
+- Examine popularity distribution patterns  
+- Demonstrate categorical data analysis  
 
-Explore popularity patterns
+---
 
-Demonstrate categorical data analysis
+## Dashboard Components
 
-1️⃣ Popular Genres
+### Popular Genres
 
-Purpose:
-To understand genre dominance and distribution.
+**Purpose**  
+To analyse genre dominance and relative distribution.
 
-2️⃣ Top Artists by Genre
+**Insight**  
+Certain genres display noticeably higher popularity, indicating uneven category concentration.
 
-Purpose:
-To examine concentration and representation within categories.
+---
 
-Example Insight Wording
+### Top Artists by Genre
 
-Certain genres show strong dominance
+**Purpose**  
+To examine how artists are distributed across genres.
 
-Artist distribution varies significantly
+**Insight**  
+Artist representation varies significantly, with some genres exhibiting higher concentration levels.
 
-Long-tail genre behaviour visible
+---
 
-Useful for market segmentation analysis
+## Key Observations
 
-Skills Demonstrated
+- Popularity distribution differs across genres  
+- Certain genres demonstrate strong dominance  
+- Artist presence is uneven between categories  
+- Long-tail behaviour visible in lower-ranked genres  
+- Visual analysis supports comparative interpretation  
 
-✔ Ranking & sorting
-✔ Category comparison
-✔ Dashboard composition
-✔ Insight communication
+---
+
+## Skills Demonstrated
+
+✔ Ranking and sorting  
+✔ Category comparison  
+✔ Dashboard composition  
+✔ Insight communication  
+
+---
+
+## Tools Used
+
+Tableau
+
+---
+
+## Dashboard Preview
+
+![Dashboard Preview](images/music-dashboard.png)
