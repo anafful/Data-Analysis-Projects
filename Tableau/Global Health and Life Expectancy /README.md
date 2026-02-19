@@ -1,34 +1,60 @@
-Global Health & Life Expectancy Analysis – Tableau
-Overview
+# Global Health & Life Expectancy Analysis – Tableau
 
-This dashboard explores relationships between life expectancy and key health indicators, including BMI and blood pressure, across countries.
+## Overview
 
-Objectives
+This Tableau dashboard explores patterns in global health indicators, focusing on life expectancy and its relationship with BMI and blood pressure across countries. The analysis emphasises visual interpretation, comparative exploration, and pattern identification.
 
-Compare life expectancy by country
+---
 
-Explore correlation between BMI & blood pressure
+## Objectives
 
-Identify patterns in health outcomes
+- Compare life expectancy across countries  
+- Examine BMI distribution patterns  
+- Analyse BMI and blood pressure relationships  
+- Identify visible trends and anomalies  
 
-Demonstrate multivariable visual analysis
+---
 
-1️⃣ Life Expectancy Distribution
+## Dashboard Components
 
-Purpose:
-To visualise geographic variation in longevity metrics.
+### Life Expectancy by Country
 
-2️⃣ BMI vs Blood Pressure
+**Purpose**  
+Visualise variation in life expectancy across countries.
 
-Purpose:
-To analyse potential relationships between body metrics and cardiovascular indicators.
+**Insight**  
+Life expectancy values vary noticeably between countries, indicating differences in health outcomes and broader socioeconomic conditions.
 
-Key Observations (Example wording)
+---
 
-Countries cluster within similar BMI ranges
+### BMI Distribution
 
-Blood pressure variation shows limited spread
+**Purpose**  
+Understand the spread and concentration of BMI values.
 
-No strong extreme outliers visible
+**Insight**  
+Most observations cluster within moderate BMI ranges, with limited extreme values.
 
-Useful for identifying population-level trends
+---
+
+### BMI vs Blood Pressure
+
+**Purpose**  
+Explore potential relationships between body metrics and cardiovascular indicators.
+
+**Insight**  
+Blood pressure values show moderate variation, with no dominant linear pattern relative to BMI.
+
+---
+
+## Key Observations
+
+- Life expectancy varies across countries  
+- BMI distribution remains relatively stable  
+- Blood pressure variation is moderate  
+- No extreme anomalies distort interpretation  
+- Visual analysis supports exploratory insights  
+
+---
+
+##
