@@ -1,58 +1,38 @@
-
 # Bike Sales Analysis – Excel Pivot & Functions
+
 ## Overview
 
-This exercise focused on exploring a bike sales dataset using Pivot Tables, logical functions, and basic data preparation techniques in Excel.
+This project analyses a bike sales dataset using Excel, focusing on Pivot Tables, logical functions, and basic data preparation techniques to explore sales patterns and customer segments.
 
-Objectives
+---
 
-Analyse sales across markets and demographics
+## Objectives
 
-Identify profitable segments
+- Analyse sales across markets and demographics  
+- Identify high-performing segments  
+- Categorise sales volumes using formulas  
+- Build summary views with Pivot Tables  
 
-Categorise sales volumes using formulas
+---
 
-Build summary views using Pivot Tables
-
-## 1️⃣ Pivot Table Analysis
+## Pivot Table Analysis
 
 A Pivot Table was created to summarise sales by country, market, age group, and gender.
 
-Key Findings
+### Key Findings
 
-Germany customers: Adults aged 36–64
+- **Germany customers:** Primarily Adults aged 36–64  
+- **Countries present across all markets:** Australia and UK  
+- **Most profitable segment:** US customers (Adults 35–64)  
+- **Youth demographic:** Lower overall spending patterns observed  
 
-Countries present in all markets: Australia and UK
+---
 
-Most profitable segment: US customers (Adults 35–64)
+## Product Categorisation – SWITCH Function
 
-Youth demographic: Lower spending behaviour observed
+Sales volumes were grouped into performance categories using the SWITCH function.
 
-## 2️⃣ Product Categorisation – SWITCH Function
+**Formula Applied**
 
-Sales volumes were categorised into performance bands using the SWITCH function.
-
-Formula applied:
-
+```excel
 =SWITCH(TRUE, C2 > 600, "High", C2 >= 300, "Medium", "Low")
-
-
-Logic Used
-
-High → Sales > 600
-
-Medium → Sales between 300–600
-
-Low → Sales < 300
-
-## 3️⃣ Data Preparation
-
-Basic cleaning steps were performed:
-
-✔ Removed spacing inconsistencies in Sales Volume
-✔ Confirmed numerical data types
-✔ Ensured Pivot compatibility
-
-## 4️⃣ Visualisations
-
-Charts were created to visualise sales distribution and patterns.
