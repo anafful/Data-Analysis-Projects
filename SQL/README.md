@@ -184,7 +184,7 @@ FROM country
 INNER JOIN city ON city.ID = country.Capital
 ORDER BY city.Population DESC;
 ```
-
+![Offset Example](Images/capital-city-population.png)
 Insight
 Supports comparison of capital city population sizes.
 
