@@ -196,6 +196,7 @@ ORDER BY Population DESC
 LIMIT 10 OFFSET 30;
 ```
 
+![Offset Example](Images/offset-population.png)
 Insight
 Demonstrates pagination using LIMIT and OFFSET.
 
