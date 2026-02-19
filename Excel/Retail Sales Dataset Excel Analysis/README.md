@@ -2,49 +2,40 @@
 
 ## Overview
 
-This exercise focused on basic Excel data handling and aggregation techniques using a retail sales dataset.
+This project explores a retail sales dataset using Excel, focusing on data structuring, sorting, filtering, and basic numerical analysis.
 
-Objectives
+---
 
-Structure raw data into an Excel Table
+## Objectives
 
-Apply sorting and filtering
+- Structure raw data using Excel Tables  
+- Apply sorting and filtering techniques  
+- Perform aggregation using formulas  
+- Analyse commission-related metrics  
 
-Perform numerical analysis using formulas
+---
 
-## 1️⃣ Data Structuring
+## Data Structuring
 
-All dataset fields (Columns A–H) were converted into an Excel Table to enable structured references and easier analysis.
+All dataset fields (Columns A–H) were converted into an Excel Table to enable structured references, consistent formatting, and easier analysis.
 
-## 2️⃣ Filtering & Sorting
+![Excel Table Structure](images/table-created.png)
 
-The Age column was sorted from largest to smallest to explore customer demographics.
+---
 
-## 3️⃣ Commission Analysis – SUM
+## Filtering & Sorting
+
+The **Age** column was sorted from largest to smallest to examine customer demographics and ordering behaviour.
+
+![Age Sorting](images/age-sorting.png)
+
+---
+
+## Commission Analysis – SUM
 
 The total commission value was calculated using the SUM function.
 
-Formula used:
+**Formula Used**
 
+```excel
 =SUM(range)
-
-
-Result:
-
-## 4️⃣ Commission Analysis – AVERAGE
-
-The average commission was calculated to understand typical earnings per transaction.
-
-Formula used:
-
-
-
-=SUMIFS(Transaction[Total], Transaction[Product Category], L15)
-=SUMIFS(Transaction[Total], Transaction[Product Category], L16)
-=UNIQUE(F2:F1001)
-
-
-=AVERAGE(range)
-
-
-Result:
