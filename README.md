@@ -20,20 +20,23 @@ These projects demonstrate practical analytical skills, data handling techniques
 
 ## Projects (Quick Links)
 
-- **Student Performance Analysis (Python / Pandas)**  
-  Data exploration, missing value analysis, feature engineering, grouped statistics.
+### Excel
+- [Bike Sales Analysis](Excel/Bike%20Sales%20Analysis/)
+- [Retail Sales Dataset Excel Analysis](Excel/Retail%20Sales%20Datset%20Excel%20Analysis/)
 
-- **Retail & Sales Analysis (Excel)**  
-  Data structuring, aggregation functions, filtering, Pivot Tables, SWITCH logic.
+### Power BI
+- [Power BI Projects](PowerBI/)
 
-- **Bike Sales Analysis (Excel)**  
-  Pivot-based segmentation, demographic analysis, performance categorisation.
+### Python
+- [Student Analysis Notebook](Python/Lab4_Panda.ipynb)
 
-- **Health & Life Expectancy Dashboard (Tableau)**  
-  Geographic analysis and multivariable comparison of health indicators.
+### SQL
+- [SQL Projects](SQL/)
 
-- **Music Genre Popularity Dashboard (Tableau)**  
-  Category distribution, ranking analysis, comparative metrics.
+### Tableau
+- [Global Health and Life Expectancy](Tableau/Global%20Health%20and%20Life%20Expectancy/)
+- [Music Genre Popularity Analysis](Tableau/Music%20Genre%20Popularity%20Analysis/)
+- [UK Regional and Industry Performance Analysis](Tableau/UK%20Regional%20and%20Industry%20Performance%20Analysis/)
 
 ---
 
