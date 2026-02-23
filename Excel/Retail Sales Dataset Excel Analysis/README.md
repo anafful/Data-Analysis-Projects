@@ -19,7 +19,7 @@ This project explores a retail sales dataset using Excel, focusing on data struc
 
 All dataset fields (Columns A–H) were converted into an Excel Table to enable structured references, consistent formatting, and easier analysis.
 
-![Excel Table Structure](Images/table-created.png)
+![Excel Table Structure](Images/filter-Age-to-largest-to-smallestd.png)
 
 ---
 
